@@ -1,0 +1,440 @@
+  2024-01-18 08:12:57   PON 0/1/2 ONU 21 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:57   PON 0/1/2 ONU 21: The ONT online
+  2024-01-18 08:12:57   PON 0/1/2 ONU 23 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:57   PON 0/1/2 ONU 23: The ONT online
+  2024-01-18 08:12:57   PON 0/1/2 ONU 22 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:57   PON 0/1/2 ONU 22: The ONT online
+  2024-01-18 08:12:57   PON 0/1/2 ONU 20 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:57   PON 0/1/2 ONU 20: The ONT online
+  2024-01-18 08:12:57   PON 0/1/2 ONU 24 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:57   PON 0/1/2 ONU 24: The ONT online
+  2024-01-18 08:12:57   PON 0/1/2 ONU 53 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:57   PON 0/1/2 ONU 53: The ONT offline
+  2024-01-18 08:12:58   PON 0/1/2 ONU 54 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:58   PON 0/1/2 ONU 54: The ONT offline
+  2024-01-18 08:12:58   PON 0/1/2 ONU 55 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:58   PON 0/1/2 ONU 55: The ONT offline
+  2024-01-18 08:12:58   PON 0/1/2 ONU 56 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:58   PON 0/1/2 ONU 56: The ONT offline
+  2024-01-18 08:12:58   PON 0/1/2 ONU 57 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:58   PON 0/1/2 ONU 57: The ONT offline
+  2024-01-18 08:12:58   PON 0/1/2 ONU 27 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:58   PON 0/1/2 ONU 27: The ONT online
+  2024-01-18 08:12:58   PON 0/1/2 ONU 29 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:58   PON 0/1/2 ONU 29: The ONT online
+  2024-01-18 08:12:58   PON 0/1/2 ONU 25 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:58   PON 0/1/2 ONU 25: The ONT online
+  2024-01-18 08:12:58   PON 0/1/2 ONU 28 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:58   PON 0/1/2 ONU 28: The ONT online
+  2024-01-18 08:12:58   PON 0/1/2 ONU 26 Loss of signal for ONU(LOSi) clear
+  2024-01-18 08:12:58   PON 0/1/2 ONU 26: The ONT online
+  2024-01-18 08:12:58   PON 0/1/2 ONU 58 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:58   PON 0/1/2 ONU 58: The ONT offline
+  2024-01-18 08:12:59   PON 0/1/2 ONU 59 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:59   PON 0/1/2 ONU 59: The ONT offline
+  2024-01-18 08:12:59   PON 0/1/2 ONU 60 Loss of signal for ONU(LOSi)
+  2024-01-18 08:12:59   PON 0/1/2 ONU 60: The ONT offline
+Assertion `(node)->data != ((void *)0)' failed in file xpon_phy.c, line 3418, func epon_onu_dereg_check 
+Backtrace for 9 stack frames: 
+[bt 0] /usr/lib/libzeblib.so(zlog_backtrace+0x18) [0x7fb04ea890] 
+[bt 1] /usr/lib/libzeblib.so(zlog_assert+0x98) [0x7fb04ea67c] 
+[bt 2] /usr/bin/cdt_app() [0xa1e3f8] 
+[bt 3] /usr/bin/cdt_app(epon_onu_mpcp_event_process+0x180) [0xa23168] 
+[bt 4] /usr/bin/cdt_app(epon_onu_msg_proc+0x6c) [0xa23ab8] 
+[bt 5] /usr/bin/cdt_app(xpon_module_task+0x124) [0xa155f4] 
+[bt 6] /usr/bin/cdt_app(vos_task_start+0x54) [0x97131c] 
+[bt 7] /lib/libc.so.6(+0x79c3c) [0x7fb0379c3c] 
+[bt 8] /lib/libc.so.6(+0xdd61c) [0x7fb03dd61c] 
+Func:zlog_assert--Line:756.Err:Abort
+Aborted
+
+
+BusyBox v1.30.1 (2024-01-17 09:29:23 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # NOTICE:  Console 115200/100MHz
+NOTICE:  Booting Trusted Firmware
+NOTICE:  BL1: v2.3():orin.2111.2
+NOTICE:  BL1: Built : 11:04:29, Dec 24 2021
+NOTICE:  Bypass verification
+NOTICE:  Boot from SNOR
+NOTICE:  NOR SPI-F... 3B-M1D done
+NOTICE:  FIP[0]: offset: 00000000, length: 1000000
+NOTICE:  FIP[1]: unavailable
+NOTICE:  FIP[2]: unavailable
+NOTICE:  FIP[3]: unavailable
+NOTICE:  RST_CNT: 2 => select FIP[0]
+NOTICE:  BL1: Booting BL2
+NOTICE:  Bypass verification
+NOTICE:  Boot from SNOR
+NOTICE:  NOR SPI-F... ef4019/3B-M1D done
+NOTICE:  RST_CNT: 2 => select FIP[0]
+NOTICE:  BL2: v2.3():
+NOTICE:  BL2: Built : 09:38:19, Jan 17 2024
+NOTICE:  DDR retention: off
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+ERROR(ZQ_calibration LINE:1382): ZQ FAIL! PAD_ZCTRL_STATUS = 0x80200000
+NOTICE:  BL1: Booting BL31
+
+
+U-Boot 2021.04.(4.0.2.55154) (Jan 17 2024 - 09:36:21 +0800)
+
+Model: RTL9311B
+DRAM:  1024 MiB
+SDK init
+  BSP init (rtcore)
+    IOAL init (unit 0)
+    GPIO Init
+    TC init (unit 0)
+  Hardware-profile probe (RTL9311B_FD1304E)
+  Hardware-profile init
+  BSP init (unit 0)
+    SPI init (unit 0) 
+    IOAL init (unit 0)
+    I2C init (unit 0)
+    RTL8231 init (unit 0)
+watchdog init 
+watchdog enable 
+    software i2c init (unit 0)
+    software i2c init (unit 0)
+NAND:  1024 MiB
+Loading Environment from SPIFlash... SF: Detected w25q256 with page size 256 Bytes, erase size 4 KiB, total 32 MiB
+OK
+In:    serial
+Out:   serial
+Err:   serial
+CPU:   800 MHz
+SNOR:  25 MHz
+SNAND: 25 MHz
+PNAND: tWP/tRP/tREA: 40 ns, tWH: 40 ns
+Net:   Net Initialization Skipped
+No ethernet found.
+    software i2c init (unit 0)
+    software i2c init (unit 0)
+Autobooting in 3 seconds, press "<CTRL+C>" to stop
+device 0 offset 0x220000, size 0x25
+SF: 37 bytes @ 0x220000 Read: OK
+booting [V3.0.0 24/01/17 09:46:07]
+
+NAND read: device 0 offset 0x0, size 0x1000
+ 4096 bytes read: OK
+
+NAND read: device 0 offset 0x0, size 0x2052000
+ 33890304 bytes read: OK
+    software i2c init (unit 0)
+0x11000040#rtl9311b
+## Loading kernel from FIT Image at 11000040 ...
+   Using 'rtl9311b' configuration
+   Verifying Hash Integrity ... OK
+   Trying 'kernel-4' kernel subimage
+     Description:  Kernel image
+     Type:         Kernel Image
+     Compression:  gzip compressed
+     Data Start:   0x11000120
+     Data Size:    33865199 Bytes = 32.3 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x15080000
+     Entry Point:  0x15080000
+   Verifying Hash Integrity ... OK
+   Decrypting Data ... OK
+## Loading fdt from FIT Image at 11000040 ...
+   Using 'rtl9311b' configuration
+   Verifying Hash Integrity ... OK
+   Trying 'rtl9311b-dtb' fdt subimage
+     Description:  RTL9311B device tree
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0x1304bfc8
+     Data Size:    9032 Bytes = 8.8 KiB
+     Architecture: AArch64
+     Load Address: 0x14f00000
+   Verifying Hash Integrity ... OK
+   Decrypting Data ... OK
+   Loading fdt from 0x1304bfc8 to 0x14f00000
+   Booting using the fdt blob at 0x14f00000
+   Uncompressing Kernel Image
+   Loading Device Tree to 000000004ee78000, end 000000004ee7d347 ... OK
+
+Starting kernel ...
+
+Booting Linux on physical CPU 0x0
+Linux version 4.4.153 (root@localhost.localdomain) (gcc version 10.3.1 20220117 (Realtek ASDK64-10.3.1 Build 3674) ) #2 SMP Wed Jan 17 09:46:01 CST 2024
+Boot CPU: AArch64 Processor [412fd050]
+earlycon: Early serial console at MMIO32 0x1080000 (options '')
+bootconsole [uart0] enabled
+cma: Reserved 16 MiB at 0x000000004dc00000
+psci: probing for conduit method from DT.
+psci: PSCIv1.1 detected in firmware.
+psci: Using standard PSCI v0.2 function IDs
+psci: MIGRATE_INFO_TYPE not supported.
+PERCPU: Embedded 19 pages/cpu @ffffffc04ffca000 s36888 r8192 d32744 u77824
+Detected VIPT I-cache on CPU0
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 258047
+Kernel command line: earlycon=uart8250,mmio32,0x01080000 console=ttyS0,115200n8 coherent_pool=4M swiotlb=1024
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+software IO TLB [mem 0x4c800000-0x4ca00000] (2MB) mapped at [ffffffc04c800000-ffffffc04c9fffff]
+Memory: 958092K/1048572K available (3846K kernel code, 284K rwdata, 2360K rodata, 30784K init, 145K bss, 74096K reserved, 16384K cma-reserved)
+Virtual kernel memory layout:
+    modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+    vmalloc : 0xffffff8008000000 - 0xffffffbdbfff0000   (   246 GB)
+      .init : 0xffffff8008690000 - 0xffffff800a4a0000   ( 30784 KB)
+      .text : 0xffffff8008080000 - 0xffffff8008430000   (  3776 KB)
+    .rodata : 0xffffff8008430000 - 0xffffff8008690000   (  2432 KB)
+      .data : 0xffffff800a4a0000 - 0xffffff800a4e7060   (   285 KB)
+    vmemmap : 0xffffffbdc0000000 - 0xffffffbfc0000000   (     8 GB maximum)
+              0xffffffbdc0400000 - 0xffffffbdc13fffc0   (    15 MB actual)
+    fixed   : 0xffffffbffe7fd000 - 0xffffffbffec00000   (  4108 KB)
+    PCI I/O : 0xffffffbffee00000 - 0xffffffbfffe00000   (    16 MB)
+    memory  : 0xffffffc010000000 - 0xffffffc04ffff000   (  1023 MB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Hierarchical RCU implementation.
+        Build-time adjustment of leaf fanout to 64.
+        RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+NR_IRQS:64 nr_irqs:64 0
+GIC: Using split EOI/Deactivate mode
+CPU0: found redistributor 0 region 0:0x0000000000640000
+Architected cp15 timer(s) running at 25.00MHz (phys).
+clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x5c40939b5, max_idle_ns: 440795202646 ns
+sched_clock: 56 bits at 25MHz, resolution 40ns, wraps every 4398046511100ns
+Calibrating delay loop (skipped), value calculated using timer frequency.. 50.00 BogoMIPS (lpj=250000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+ASID allocator initialised with 65536 entries
+Brought up 1 CPUs
+SMP: Total of 1 processors activated.
+CPU features: detected feature: GIC system register CPU interface
+CPU features: detected feature: User Access Override
+CPU: All CPU(s) started at EL2
+alternatives: patching kernel code
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 256 (order: 3, 32768 bytes)
+NET: Registered protocol family 16
+vdso: 2 pages (1 code @ ffffff8008435000, 1 data @ ffffff800a4a4000)
+DMA: preallocated 4096 KiB pool for atomic allocations
+ACPI: Interpreter disabled.
+vgaarb: loaded
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+clocksource: Switched to clocksource arch_sys_counter
+pnp: PnP ACPI: disabled
+ecc_ctlr 102c000.ecc-ctlr: ECC ctrl driver
+NET: Registered protocol family 2
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 2, 16384 bytes)
+UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+NFS: Registering the id_resolver key type
+Key type id_resolver registered
+Key type id_legacy registered
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+console [ttyS0] disabled
+1080000.uart0: ttyS0 at MMIO 0x1080000 (irq = 7, base_baud = 6250000) is a 16550A
+console [ttyS0] enabled
+console [ttyS0] enabled
+bootconsole [uart0] disabled
+bootconsole [uart0] disabled
+1080100.uart1: ttyS1 at MMIO 0x1080100 (irq = 8, base_baud = 6250000) is a 16550A
+Unable to detect cache hierarchy for CPU 0
+loop: module loaded
+sw_pnand 1028000.pnand: SW PNAND Flash driver
+[PNAND] ID : EF D3 91 95 58 00 00 00
+device found, Manufacturer ID: 0xef, Chip ID: 0xd3!!
+Unknown Winbond W29N08GVSIAA 8Gb 3.3V
+1024 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64!
+Parallel nand available size is 1024MB(0x40000000)
+parallel nand 1st scan factory bad to memory
+parallel nand hidden: 
+parallel nand Mode: 
+Scanning device for bad blocks
+Creating 4 MTD partitions on "sw_pnand_flash":
+0x000000000000-0x000008000000 : "firmware1"
+0x000008000000-0x000010000000 : "firmware2"
+0x000010000000-0x000014000000 : "fs_reserved"
+0x000014000000-0x000040000000 : "fs"
+sw_pnand_probe:4176 Add partition Success
+usbcore: registered new interface driver r8152
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci-platform: EHCI generic platform driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ohci-pci: OHCI PCI platform driver
+ohci-platform: OHCI generic platform driver
+usbcore: registered new interface driver uas
+usbcore: registered new interface driver usb-storage
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (7613 buckets, 30452 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+arp_tables: (C) 2002 David S. Miller
+NET: Registered protocol family 17
+8021q: 802.1Q VLAN Support v1.8
+Key type dns_resolver registered
+WINBOND/
+physmap platform flash device: 00004000 at 01020000
+SPI NOR FLASH driver
+WINBOND/[NOR] flash chip found; id is ef4019
+WW: arch_wip(), arch_en4b(), arch_ex4b(), xread_en(),and/or xread_ex() is on flash!
+[NOR] 4 bytes address
+Creating 4 MTD partitions on "physmap-flash":
+0x000000000000-0x000000200000 : "boot"
+0x000000200000-0x000000220000 : "env"
+0x000000220000-0x000000260000 : "nvram"
+0x000000260000-0x000000660000 : "csm"
+hctosys: unable to open rtc device (rtc0)
+Freeing unused kernel memory: 30784K
+rtcore: loading out-of-tree module taints kernel.
+RTCORE LKM Insert...
+RTCORE Driver Module Initialize
+  Log init
+  BSP init (rtcore)
+    IOAL init (unit 0)
+    GPIO Init
+    TC init (unit 0)
+    Watchdog init (unit 0)
+    Intr init (unit 0)
+    TC util init (unit 0)
+    TC util init (isr)
+  Hardware-profile probe (RTL9311B_FD1304E_V1)
+  Hardware-profile init
+  BSP init (unit 0)
+    SPI init (unit 0) (type3)
+    SPI Master init
+    IOAL init (unit 0)
+    Intr swcore init (unit 0)
+    I2C init (unit 0)
+    RTL8231 init (unit 0)
+  L2Ntfy probe (unit 0): (found)
+RTNIC OOB Driver Module Initialize
+  rtnic_oob_init  unit(0), dev_name(eth0), dev_addr(e0:67:b3:af:52:0c)
+RTK Driver Module Initialize
+  MAC probe (unit 0)
+    Chip 9311 (found)
+  MAC init (unit 0)
+  SMI protocol probe (unit 0)
+  Chip(MAC) Construct (unit 0)
+    Chip Construct
+    Turn Off Serdes
+    Disable SDS port Polling
+    Mac Construct
+    Serdes Construct
+    MAC-Polling-PHY Config
+    Enable SDS port Polling
+  Mgmt_dev init chipType (0), id (0)
+  PHY probe (phy_index 0)
+  Chip(PHY) Construct (phy_index 0)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 0)
+  Mgmt_dev init chipType (1), id (0)
+  PHY probe (phy_index 12)
+  Chip(PHY) Construct (phy_index 12)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 12)
+  Mgmt_dev init chipType (1), id (12)
+  PHY probe (phy_index 20)
+  Chip(PHY) Construct (phy_index 20)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 20)
+  Mgmt_dev init chipType (1), id (20)
+    SerDes Port Configure
+  PHY probe (phy_index 24)
+  Chip(PHY) Construct (phy_index 24)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 24)
+  Mgmt_dev init chipType (1), id (24)
+  PHY probe (phy_index 25)
+  Chip(PHY) Construct (phy_index 25)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 25)
+  Mgmt_dev init chipType (1), id (25)
+  PHY probe (phy_index 26)
+  Chip(PHY) Construct (phy_index 26)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 26)
+  Mgmt_dev init chipType (1), id (26)
+  PHY probe (phy_index 27)
+  Chip(PHY) Construct (phy_index 27)
+    Disable PHY Polling
+    PHY Reset
+    PHY Construct
+    MAC-Polling-PHY Config
+    Enable PHY Polling
+  PHY init (phy_index 27)
+  Mgmt_dev init chipType (1), id (27)
+cpupkt_dev_setup start......
+cpupkt_dev_setup OK!!!
+RTNIC Driver Module Initialize
+  rtnic_init  unit(0), dev_name(eth1), dev_addr(e0:67:b3:af:52:0d)
+RTDRV Driver Module Initialize
+UBI device number 0, total 5632 LEBs (715128832 bytes, 682.0 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+attached rtc device, sync rtc to sys......
+pt7a_wdt_dev_setup start......
+pt7a_wdt_dev_setup OK!!!
+start OLT app......
+Switch task start ....................OK
+Tasks completed .................... OK!
+Exiting: failed to connect to any daemons.
+Zebra starting: vty@23
+Loading configuration from file: /mnt/cfg/config.cfg
+****************************************************************
+**  EPON OLT Integrated Operating System.                     **
+**  Device Model     : FD1304E                                **
+**  Hardware version : V1.1                                   **
+**  Firmware version : V3.2.5_240117                          **
+**  BuildDate        : Wed, 17 Jan 2024 09:34:04 +0800        **
+**  Mac Address      : E0:67:B3:AF:52:0C                      **
+****************************************************************
+
+User interface console is available.
+
+Please press ENTER to start.
+
+Board 0/1 connect message CONNECT OK .
+  2024-01-18 08:14:18   Board 0/1 connection succeeded
+  2024-01-18 08:14:19   PON  0/1/1 Sfp plugged
+Board 0/2 connect message CONNECT OK .

@@ -1,0 +1,278 @@
+[2024-01-16 19:19:09] 
+User Access Verification
+
+****************************************************************
+**  EPON OLT Integrated Operating System.                     **
+**  Device Model     : FD1304E                                **
+**  Hardware version : V1.1                                   **
+**  Firmware version : V3.2.3_240102                          **
+**  BuildDate        : Tue, 02 Jan 2024 17:42:09 +0800        **
+**  Mac Address      : E0:67:B3:AF:52:0C                      **
+****************************************************************
+User name:root
+Password: *****
+FD1304E> en
+FD1304E# config
+FD1304E(config)#[2024-01-16 19:19:09]  interface epon 0/1[2024-01-16 19:19:19] 
+FD1304E(config-epon-0/1)#   2024-01-16 19:20:27   PON  0/1/2 Loss of signal(LOS)
+shutdown 2
+FD1304E(config-epon-0/1)#   2024-01-16 19:20:28   PON 0/1/2 ONU 52 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 52: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 46 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 46: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 4 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 4: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 61 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 61: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 22 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 22: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 53 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 53: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 37 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 37: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 35 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 35: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 23 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 23: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 27 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 27: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 55 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 55: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 38 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 38: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 59 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 59: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 56 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 56: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 8 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 8: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 58 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 58: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 43 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 43: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 63 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 63: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 48 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 48: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 24 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 24: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 32 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 32: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 45 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 45: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 51 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 51: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 26 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 26: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 42 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 42: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 19 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 19: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 30 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 30: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 15 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 15: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 11 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 11: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 29 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 29: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 10 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 10: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 44 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 44: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 17 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 17: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 33 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 33: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 40 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 40: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 16 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 16: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 25 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 25: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 3 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 3: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 49 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 49: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 62 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 62: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 50 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 50: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 64 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 64: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 5 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 5: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 34 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 34: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 9 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 9: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 41 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 41: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 39 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 39: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 57 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 57: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 1 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 1: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 13 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 13: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 2 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 2: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 36 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 36: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 28 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 28: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 12 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 12: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 14 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 14: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 20 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 20: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 7 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 7: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 31 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 31: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 54 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 54: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 60 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 60: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 47 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 47: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 21 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 21: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 6 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON 0/1/2 ONU 6: The ONT offline
+  2024-01-16 19:20:28   PON 0/1/2 ONU 18 Loss of signal for ONU(LOSi)
+  2024-01-16 19:20:28   PON  0/1/2 pon port link down
+  2024-01-16 19:20:28   PON 0/1/2 ONU 18: The ONT offline
+[2024-01-16 19:19:49] no shutdown 2
+FD1304E(config-epon-0/1)#   2024-01-16 19:20:38   PON  0/1/2 Loss of signal(LOS) clear
+  2024-01-16 19:20:38   PON  0/1/2 pon port link up
+  2024-01-16 19:20:38   PON 0/1/2 ONU 8 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 8: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 18 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 18: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 61 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 61: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 55 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 55: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 51 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 51: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 37 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 37: The ONT online
+  2024-01-16 19:20:38   PON 0/1/2 ONU 50 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:38   PON 0/1/2 ONU 50: The ONT online
+  2024-01-16 19:20:39   PON 0/1/2 ONU 44 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:39   PON 0/1/2 ONU 44: The ONT online
+  2024-01-16 19:20:39   PON 0/1/2 ONU 54 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:39   PON 0/1/2 ONU 54: The ONT online
+  2024-01-16 19:20:39   PON 0/1/2 ONU 19 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:39   PON 0/1/2 ONU 19: The ONT online
+  2024-01-16 19:20:40   PON 0/1/2 ONU 34 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:40   PON 0/1/2 ONU 34: The ONT online
+  2024-01-16 19:20:40   PON 0/1/2 ONU 47 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:40   PON 0/1/2 ONU 47: The ONT online
+  2024-01-16 19:20:40   PON 0/1/2 ONU 4 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:40   PON 0/1/2 ONU 4: The ONT online
+  2024-01-16 19:20:40   PON 0/1/2 ONU 24 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:40   PON 0/1/2 ONU 24: The ONT online
+  2024-01-16 19:20:40   PON 0/1/2 ONU 48 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:40   PON 0/1/2 ONU 48: The ONT online
+  2024-01-16 19:20:41   PON 0/1/2 ONU 36 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:41   PON 0/1/2 ONU 36: The ONT online
+  2024-01-16 19:20:41   PON 0/1/2 ONU 9 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:41   PON 0/1/2 ONU 9: The ONT online
+  2024-01-16 19:20:41   PON 0/1/2 ONU 52 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:41   PON 0/1/2 ONU 52: The ONT online
+  2024-01-16 19:20:41   PON 0/1/2 ONU 29 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:41   PON 0/1/2 ONU 29: The ONT online
+  2024-01-16 19:20:42   PON 0/1/2 ONU 10 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:42   PON 0/1/2 ONU 10: The ONT online
+  2024-01-16 19:20:42   PON 0/1/2 ONU 60 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:42   PON 0/1/2 ONU 60: The ONT online
+  2024-01-16 19:20:42   PON 0/1/2 ONU 46 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:42   PON 0/1/2 ONU 46: The ONT online
+  2024-01-16 19:20:42   PON 0/1/2 ONU 40 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:42   PON 0/1/2 ONU 40: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 49 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 49: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 31 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 31: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 21 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 21: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 6 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 6: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 27 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 27: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 11 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 11: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 15 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 15: The ONT online
+  2024-01-16 19:20:43   PON 0/1/2 ONU 3 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:43   PON 0/1/2 ONU 3: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 22 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 22: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 45 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 45: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 13 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 13: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 12 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 12: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 20 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 20: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 7 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 7: The ONT online
+  2024-01-16 19:20:44   PON 0/1/2 ONU 56 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:44   PON 0/1/2 ONU 56: The ONT online
+  2024-01-16 19:20:45   PON 0/1/2 ONU 58 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:45   PON 0/1/2 ONU 58: The ONT online
+  2024-01-16 19:20:45   PON 0/1/2 ONU 53 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:45   PON 0/1/2 ONU 53: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 17 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 17: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 64 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 64: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 39 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 39: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 1 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 1: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 32 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 32: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 23 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 23: The ONT online
+  2024-01-16 19:20:46   PON 0/1/2 ONU 35 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:46   PON 0/1/2 ONU 35: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 16 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 16: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 57 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 57: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 25 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 25: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 2 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 2: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 28 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 28: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 38 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 38: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 59 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 59: The ONT online
+  2024-01-16 19:20:47   PON 0/1/2 ONU 63 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:47   PON 0/1/2 ONU 63: The ONT online
+  2024-01-16 19:20:48   PON 0/1/2 ONU 26 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:48   PON 0/1/2 ONU 26: The ONT online
+  2024-01-16 19:20:48   PON 0/1/2 ONU 30 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:48   PON 0/1/2 ONU 30: The ONT online
+  2024-01-16 19:20:48   PON 0/1/2 ONU 33 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:48   PON 0/1/2 ONU 33: The ONT online
+  2024-01-16 19:20:48   PON 0/1/2 ONU 43 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:48   PON 0/1/2 ONU 43: The ONT online
+  2024-01-16 19:20:49   PON 0/1/2 ONU 62 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:49   PON 0/1/2 ONU 62: The ONT online
+  2024-01-16 19:20:49   PON 0/1/2 ONU 5 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:49   PON 0/1/2 ONU 5: The ONT online
+  2024-01-16 19:20:49   PON 0/1/2 ONU 41 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:49   PON 0/1/2 ONU 41: The ONT online
+  2024-01-16 19:20:49   PON 0/1/2 ONU 42 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:49   PON 0/1/2 ONU 42: The ONT online
+  2024-01-16 19:20:49   PON 0/1/2 ONU 14 Loss of signal for ONU(LOSi) clear
+  2024-01-16 19:20:49   PON 0/1/2 ONU 14: The ONT online

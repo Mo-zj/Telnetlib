@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 
 
 # todo：字符串类型与bytes类型之间互转
@@ -32,8 +32,8 @@ def int_to_bytes():
         """
         # int 转 bytes
         int.to_bytes(字节长度, 大端/小端存储, 关键字参数有符号还是无符号)
-        - 大端：big
-        - 小端：little
+        - 大端：big   “大端存储”，即数据的高位字节存储在存储空间的低位地址上，此时sys.byteorder的值为“big”。
+        - 小端：little  “小端存储”时，数据的低位也存储在存储空间的低位地址中
         
         # 例如：将数字128存储为int16类型的字节，在计算机里小端存储
         # 如果实际数字超出了存储字节的长度，将会报错
@@ -51,8 +51,8 @@ def int_to_bytes():
         print(int.from_bytes(i, 'little', signed=True))
 
 
-# str_to_bytes()
-int_to_bytes()
+str_to_bytes()
+# int_to_bytes()
 
 
 
